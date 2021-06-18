@@ -1,0 +1,17 @@
+package co.com.pragma.customer.servicecustomer.error;
+
+public class ServiceCustomerException extends Exception {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7948328251075120684L;
+
+	public ServiceCustomerException(String errorMessage) {
+		super(errorMessage);
+	}
+
+	public ServiceCustomerException(String errorMessage, Throwable err) {
+		super(errorMessage, err);
+	}
+}

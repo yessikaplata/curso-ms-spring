@@ -1,0 +1,12 @@
+package co.com.pragma.customer.servicecustomer.controller;
+
+public class EnumNotFound extends RuntimeException {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 5165846482455644034L;
+
+	public EnumNotFound(String message) {
+		super(message);
+	}
+}

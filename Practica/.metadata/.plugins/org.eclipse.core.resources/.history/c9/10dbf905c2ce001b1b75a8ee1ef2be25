@@ -1,0 +1,5 @@
+package co.com.pragma.customer.servicecustomer.error;
+
+public class ServiceCustomerException extends Exception {
+
+}

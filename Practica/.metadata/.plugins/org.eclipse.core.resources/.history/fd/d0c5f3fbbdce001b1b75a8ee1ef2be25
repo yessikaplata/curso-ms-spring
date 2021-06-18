@@ -1,0 +1,5 @@
+package co.com.pragma.customer.servicecustomer.controller;
+
+public class EnumNotFound extends RuntimeException{
+
+}

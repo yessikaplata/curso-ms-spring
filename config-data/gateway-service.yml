@@ -25,3 +25,10 @@ spring:
           uri: lb://shoping-service
           predicates:
             - Path=/invoices/**
+  sleuth:
+    enabled: true
+    sampler:
+        probability: 1.0
+    trace-id128: true
+            
+            
